@@ -9,6 +9,13 @@
     --dull-blue:#1d1e33;
 }
 
+.app{
+    min-height: 100vh;
+    background-image: url(/sfsites/c/resource/backgroungImage);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .box{
     max-width: 420px;
     text-align: center;
@@ -37,4 +44,28 @@ h1{
 h2{
     font-size: 26px;
     color: var(--light-pink);
+}
+
+label{
+    font-size: 20px;
+    color: var(--light-white);
+}
+
+input{
+    color:var(--dull-blue);
+    padding: 8px;
+    font-size: var(--size-16);
+}
+
+button{
+    font-size: var(--size-16);
+    padding: var(--size-12);
+    color: var(--light-white);
+    background: var(--light-pink);
+    border-color: var(--light-pink);
+}
+
+.resultValue{
+    color: var(--light-white);
+    font-size: 30px;
 }
