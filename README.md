@@ -1,18 +1,25 @@
-# Salesforce DX Project: Next Steps
+# LWC BMI Calculator
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is a simple Body Mass Index (BMI) calculator built using Lightning Web Components (LWC). The BMI is a measure of body fat based on height and weight that applies to both adult men and women.
 
-## How Do You Plan to Deploy Your Changes?
+This project was created to demonstrate the power and simplicity of LWC, which is a modern framework for building fast and lightweight web components on the Salesforce Platform. The LWC BMI Calculator allows users to input their height and weight in either the metric or imperial system, and calculates their BMI accordingly. The BMI is then displayed along with a corresponding weight category (e.g. underweight, normal weight, overweight, obese).
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Features
 
-## Configure Your Salesforce DX Project
+- Calculates BMI based on user inputs
+- Provides BMI category based on calculated value (underweight, normal weight, overweight, obese)
+- Responsive design for desktop and mobile devices
+- Customizable colors and backgrounds through CSS variables
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Technologies Used
+- Salesforce Lightning Web Components
+- HTML/CSS
+- JavaScript
 
-## Read All About It
+## Usage
+1. Enter your weight in kilograms and height in meters.
+2. Click the "Calculate" button to see your BMI value and category.
+3. Click the "Reset" button to clear the inputs and results.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Customization
+You can customize the colors and backgrounds of the app by modifying the CSS variables defined in the bmiCalculator.css file.
