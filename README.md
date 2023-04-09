@@ -21,7 +21,7 @@ This project was created to demonstrate the power and simplicity of LWC, which i
 2. Click the "Calculate" button to see your BMI value and category.
 3. Click the "Reset" button to clear the inputs and results.
 
-- [Demo url](empathetic-goat-jgrtil-dev-ed.my.site.com/bmicalculator)
+- Demo url : empathetic-goat-jgrtil-dev-ed.my.site.com/bmicalculator
 
 ## Customization
 You can customize the colors and backgrounds of the app by modifying the CSS variables defined in the bmiCalculator.css file.
